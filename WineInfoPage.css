@@ -1,0 +1,182 @@
+/* src/styles/WineInfoPage.css */
+.wine-info-page {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .wine-info-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .wine-info-page p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .wine-details {
+    margin-top: 2rem;
+  }
+  
+  .wine-details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .wine-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .wine-details li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  /* Wine Info Page Styles */
+.wine-info-page {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .wine-info-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .wine-info-page p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+  }
+  
+  /* Tasting Notes Section */
+  .wine-details {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wine-details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .wine-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .wine-details li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Benefits Section */
+  .benefits-section {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .benefits-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .benefit-card {
+    text-align: center;
+  }
+  
+  .benefit-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .benefit-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+  
+  .benefit-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Motivation Section */
+  .motivation-section {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .motivation-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .motivation-section p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 1rem auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .wine-info-page h1 {
+      font-size: 2rem;
+    }
+  
+    .wine-info-page p {
+      font-size: 1rem;
+    }
+  
+    .wine-details h2 {
+      font-size: 1.5rem;
+    }
+  
+    .wine-details li {
+      font-size: 1rem;
+    }
+  
+    .benefits-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .benefit-card h3 {
+      font-size: 1.2rem;
+    }
+  
+    .motivation-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .motivation-section p {
+      font-size: 1rem;
+    }
+  }
